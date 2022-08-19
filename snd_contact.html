@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- 
+    Final Project COP2822c
+    John Dallaire
+    8/15/2022
+
+    filename    snd_contact.html
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprinkles n' Donuts</title>
+    <link rel="icon" type="image/x-icon" href="images\small_donut_icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="brand"><a href="/">Sprinkles n' Donuts</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="snd_menu.html">Menu</a></li>
+                <li><a href="snd_aboutus.html">About Us</a></li>
+                <li><a href="snd_contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+
+
+    
+<!-- Contact -->
+
+
+    <div class="container">
+        
+        <h1>Contact Us</h1>
+        <p>Have a question or concern? <br>Use this page to get in touch with us.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Your contact information</h3>
+                <form>
+                    <div class="input-row">
+                        <label>Name</label>
+                        <input type="text" placeholder="John Doe">
+                    </div>
+                    <div class="input-row">
+                        <label>Phone</label>
+                        <input type="text" placeholder="123-456-7890" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" required>
+                    </div>
+                    <div class="input-row">
+                        <label>Email</label>
+                        <input type="text" placeholder="John Doe" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
+                    </div>
+
+                    <label>Message</label>
+                    <br>
+                    <textarea rows="3" placeholder="Enter your message"></textarea>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+
+            <table>
+                <tr>
+                    <td>Address</td>
+                    <td>123 Water St, Jacksonville, FL</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>Sprinklesndonuts@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td>904-867-5309</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

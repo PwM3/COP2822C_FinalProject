@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- 
+    Final Project COP2822c
+    John Dallaire
+    8/15/2022
+
+    filename  index.html
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprinkles n' Donuts</title>
+    <link rel="icon" type="image/x-icon" href="images\small_donut_icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--begin nav bar-->
+    <header>
+        
+        <div id="brand"><a href="/">Sprinkles n' Donuts</a></div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="snd_menu.html">Menu</a></li>
+                <li><a href="snd_aboutus.html">About Us</a></li>
+                <li><a href="snd_contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--end nav bar-->
+    <!--Ad that links is an alternative path menu page-->
+    <a href="snd_menu.html" style="text-decoration: none;">
+      <div class="home-content">
+        <h1>Try all our flavors</h1>
+          <p>We bake a wide variety of donut flavors - all house made with clean ingredients. Visit our menu for a complete list of flavors.
+          </p>  
+      </div>
+    </a> 
+    <!--end of end-->
+    <!--beginning of image slider-->
+    <!--source for tutorial I used for slider: https://tinyurl.com/ytca66u6
+    -->
+    <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          
+          <div class="slide first">
+            <img src="images\slider_donut1.jpg" alt="">
+            <!--image source: https://unsplash.com/photos/6SMF42-JTAc-->
+          </div>
+          <div class="slide">
+            <img src="images\slider_donut2.jpg" alt="">
+            <!--image source: https://unsplash.com/photos/qZ6uvJHLHFc-->
+          </div>
+          <div class="slide">
+            <img src="images\slider_donut3.jpg" alt="">
+            <!--image source: https://unsplash.com/photos/XyBeP4K9Vzs-->
+          </div>
+          <div class="slide">
+            <img src="images\slider_donut4.jpg" alt="">
+            <!--image source: https://unsplash.com/photos/Ic0E0y6Zo20-->
+          </div>
+            <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+      <!--end of image slider-->
+
+
+</body>
+
+</html>
